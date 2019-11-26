@@ -1,0 +1,7 @@
+import pandas as pd
+cars=pd.read_csv('cars.csv')
+df=cars
+df.iloc[[1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31],]
+df[df['Model']=='Mazda RX4']
+df.loc[df['Model']=='Camaro Z28']
+df.loc[[1,18,28],['cyl','gear']]
