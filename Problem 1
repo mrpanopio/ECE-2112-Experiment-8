@@ -1,0 +1,5 @@
+import pandas as pd
+cars=pd.read_csv('cars.csv')
+df=cars
+df.head(5)
+df.tail(5)
